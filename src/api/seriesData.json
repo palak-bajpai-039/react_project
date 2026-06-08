@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Lovely Runner",
+    "id": "lovely-runner",
+    "img_url": "lovely_runner.jpg",
+    "rating": "9.8",
+    "description": "Im Sol travels back in time to prevent the tragic fate of her favorite star, Ryu Sun Jae.",
+    "cast": ["Kim Hye Yoon", "Byeon Woo Seok", "Song Geon Hee"],
+    "genre": ["Romantic Comedy", "Fantasy"],
+    "watch_url": "https://www.amazon.in/minitv/tp/08803d1c-5001-4144-bb5e-a944644e601a"
+  },
+  {
+    "name": "Stranger Things",
+    "id": "stranger-things",
+    "img_url": "stranger_thing.jpg",
+    "rating": "8.7",
+    "description": "A group of young friends witness supernatural forces and secret government exploits.",
+    "cast": ["Winona Ryder", "David Harbour", "Millie Bobby Brown"],
+    "genre": ["Drama", "Fantasy", "Horror"],
+    "watch_url": "https://www.google.com/search?sa=X&sca_esv=3bd1b57b106fee9e&rlz=1C1RXQR_enIN1130IN1136&sxsrf=ANbL-n5qeKxzBudYJKLUmrC1d_dFBGGHIg:1780321718224&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-Qg9gdZYJriKd9fBMKKfwqZsp5a2Z8RykAyI8QON1GKtNJOssmbpPvaOpAriL5ZmTwtx9B17VeAaoqb-qf2R_XTlcg6QIT-dCFYKZUSMNTtLZ72W3kEX7yJunhV8fObfw2b2yNqJD-ZmRex00cp8ruSqBTbIg&q=stranger+things&ved=2ahUKEwjv6uacl-aUAxVoWGwGHeeHDqoQtKgLegQIERAB&biw=1366&bih=679&dpr=1#fpstate=ive&ip=1&vld=cid:8bdb6a24,vid:M613rXclfpI,st:0"
+  },
+  {
+    "name": "The Witcher",
+    "id": "the-witcher",
+    "img_url": "the_witcher.jpg",
+    "rating": "8.2",
+    "description": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world.",
+    "cast": ["Henry Cavill", "Anya Chalotra", "Freya Allan"],
+    "genre": ["Action", "Adventure", "Drama"],
+    "watch_url": "https://www.google.com/search?sa=X&sca_esv=3bd1b57b106fee9e&rlz=1C1RXQR_enIN1130IN1136&sxsrf=ANbL-n5Q7NhF0NKh5Tvizq5WV0LWV7G7_w:1780311320338&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3p-ML-906rRL_m6h4jR-tdAeyw6pOVABma0FfM0NmtARdcuGnZVoiSrEQCt2b10nLgJjnciRuscuXtl6T7LaQdCkfGD_59MD7oxsIhZlOUL-35chxRAW0KoV0H8UnTr9cfL5pIgi1wDFc-K04J5dGGlMPa6MviXZrsvZmXSkJWsVTrRUDIc0YsA3MaELSgREuSE9s6Y&q=the+witcher&ved=2ahUKEwjIldq-8OWUAxVZRWcHHQGfLdEQtKgLegQIEBAB&biw=1366&bih=679&dpr=1#fpstate=ive&ip=1&vld=cid:1cebecc2,vid:ndl1W4ltcmg,st:0"
+  },
+  {
+    "name": "Money Heist",
+    "id": "money-heist",
+    "img_url": "money_heist.jpg",
+    "rating": "8.3",
+    "description": "A criminal mastermind who goes by 'The Professor' plans the biggest heist in recorded history.",
+    "cast": ["Úrsula Corberó", "Álvaro Morte", "Itziar Ituño"],
+    "genre": ["Action", "Crime", "Drama"],
+    "watch_url": "https://www.google.com/search?sa=X&sca_esv=3bd1b57b106fee9e&rlz=1C1RXQR_enIN1130IN1136&sxsrf=ANbL-n4aQcEijLuMNFUTM0S1V6Iz8KcDmA:1780321946512&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-SJyfRX_inP-J3Cs9lQZu9J3QQItR3OEYwLkKzmr7kPOcnOHgs2DuqUZRO-ELiAwEQLwoqUvn44dXQU6Y16iXnUaSk2aLGfHqBJOSJORuPP3qqofPpBo3gC_2ia3NQu36fah9uQeYUp5d0FS8gz30lxi-cxLg&q=money+heist&ved=2ahUKEwj1utSJmOaUAxWUcGwGHae2GX4QtKgLegQIExAB&biw=1366&bih=679&dpr=1#fpstate=ive&vld=cid:09edcca5,vid:HNMP1UdjOsE,st:0"
+  },
+  {
+    "name": "The Crown",
+    "id": "the-crown",
+    "img_url": "the_crown.jpg",
+    "rating": "8.6",
+    "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century.",
+    "cast": ["Claire Foy", "Olivia Colman", "Imelda Staunton"],
+    "genre": ["Biography", "Drama", "History"],
+    "watch_url": "https://www.google.com/search?sa=X&sca_esv=3bd1b57b106fee9e&rlz=1C1RXQR_enIN1130IN1136&sxsrf=ANbL-n799LCFXJn749XaXLFBx5g1n5ipyg:1780311418651&udm=7&fbs=ADc_l-byipRaccqV0jmfPhi1DgzPtklXGmVkws8Z_lBff884vwWzYGOXmwhR8m6ZBpcqcPKigjKCXGzdgLA863i-FX-8eyHzKlqV3d92isaabXUOP5wA7yiIyQrspqdD1ViUkzCDheiKpvIkfGFe8A_A4qjs-LbkHfyM-nXzJxvRkEyrhbj_ogts4fb3Rf8qmlOyQKEXx8Gs8Kf_8XNce4GRq4LAdsIKkYJerSoWINEIIgHtM0d2JtY&q=the+crown&ved=2ahUKEwjE1srt8OWUAxVXS2cHHXuhG-wQtKgLegQIDhAB&biw=1366&bih=679&dpr=1#fpstate=ive&vld=cid:ebd8f284,vid:1weI6ICx-hg,st:0"
+  },
+  {
+    "name": "Squid Game",
+    "id": "squid-game",
+    "img_url": "squid_game.jpg",
+    "rating": "8.1",
+    "description": "Hundreds of cash-strapped contestants accept an invitation to compete in children's games for a tempting prize, but the stakes are deadly.",
+    "cast": ["Lee Jung-jae", "Park Hae-soo", "Wi Ha-joon"],
+    "genre": ["Action", "Drama", "Mystery"],
+    "watch_url": "https://www.google.com/search?sa=X&sca_esv=3bd1b57b106fee9e&rlz=1C1RXQR_enIN1130IN1136&sxsrf=ANbL-n7POM1IXUrXVlBFyNd70lfq62hZYA:1780311578056&udm=7&fbs=ADc_l-bjKCQJ_d2hGsaMSFhvr1-BN25XCIfFjoDwHS_tiFV0LsqHrUZyk2ViWF2yscJz0cd5Jt4C69J7U_e3IxKWoM2UHCxxBQq2_snNjm1OlPR6PBk9lAqaF6czQAyAgoiULSXcBee4aEcSgG46U6FSCHTMGZqXgX2GKTy4p9efN3pYI9mlmys0FHblTUP4MUJHgf_Qx7i3p0huzTR7Awm8XaBmPkhrCik0Zxeari84dSBDx3X6KHo&q=squid+game&ved=2ahUKEwihgMy58eWUAxWscmwGHXYZFvYQtKgLegQIDxAB&biw=1366&bih=679&dpr=1#fpstate=ive&vld=cid:3c1b3478,vid:oqxAJKy0ii4,st:0"
+  },
+  {
+    "name": "Queen of Tears",
+    "id": "queen-of-tears",
+    "img_url": "queen of tears.jpg",
+    "rating": "TBD",
+    "description": "A gripping tale of love, loss, and resilience set against the backdrop of a war-torn nation.",
+    "cast": ["Kim Soo Hyun", "Kim Ji Won"],
+    "genre": ["Drama", "Romance"],
+    "watch_url": "https://www.google.com/search?sca_esv=5f802be1e67c425f&rlz=1C1RXQR_enIN1130IN1136&sxsrf=ANbL-n7n9SuBjMeukEReHOpA8INQo9XElQ:1780322256679&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-SJyfRX_inP-J3Cs9lQZu9J3QQItR3OEYwLkKzmr7kPOUs5eVC8D3EVAeNGSC7KgB0j3s2RRDF1oAiWIoOtUZ6wMxwJDRzdBLM6HTVzg8jwAchnjmpVWasIJqLOffpcwFgu7341cBUvqJvU7KGe5002rp4yCw&q=the+queen+of+tears&sa=X&ved=2ahUKEwjzssedmeaUAxWyUWwGHfy0IbsQtKgLegQIExAB&biw=1366&bih=679&dpr=1#fpstate=ive&vld=cid:58a5d74a,vid:1Cxjaerofpo,st:0"
+  }
+]
