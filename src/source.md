@@ -18,9 +18,7 @@ However, `0` and empty strings (`""`) are exceptions:
 - **Empty string ** (`"`) are also considered valid
   and are rendered as well .
 
-
-
-## import Export 
+## import Export
 
 Default Export : A file can have only one default export,
 Default Import : When importing a default export , you can name the import whatever you like .
