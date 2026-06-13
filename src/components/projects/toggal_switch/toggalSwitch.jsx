@@ -15,7 +15,7 @@ export const ToggalSwitch = () => {
     <>
       <h1 style={{ color: "#000", textAlign: "center" }}>
         Toggle switch
-        <IoIosSwitch />
+        <IoIosSwitch style={{ color: "red", textAlign: "center" }} />
       </h1>
       <div
         className="toggle-switch"
