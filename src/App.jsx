@@ -1,16 +1,12 @@
-//import NetflixSeries from "./components/NetflixSeries";
-//import "./components/Netflix.css";
-//import "./components/Netflix.module.css";
-//import { EventHanhling } from "./components/EventHandling";
-import { EventProps } from "./components/EventProps";
+import { ToggalSwitch } from "./components/projects/toggal_switch/toggalSwitch";
+import "./components/EV.css";
 
 export const App = () => {
   return (
-    <section className="container">
-      {/*<h1 className="card-heading">List of Netflix Series</h1>*/}
-      {/*<NetflixSeries />;*/}
-      {/*<EventHanhling />;*/}
-      <EventProps />
-    </section>
+    <>
+      <section className="container">
+        <ToggalSwitch />
+      </section>
+    </>
   );
 };
