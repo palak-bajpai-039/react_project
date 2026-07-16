@@ -1,12 +1,6 @@
-import { ToggalSwitch } from "./components/projects/toggal_switch/toggalSwitch";
-import "./components/EV.css";
+import { Todo } from "./components/projects/todo/todo";
+//import { Keys } from "./keys";
 
 export const App = () => {
-  return (
-    <>
-      <section className="container">
-        <ToggalSwitch />
-      </section>
-    </>
-  );
+  return <Todo />;
 };
