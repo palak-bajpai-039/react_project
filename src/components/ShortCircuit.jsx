@@ -5,7 +5,7 @@ const ShortCircuit = () => {
   return (
     <section className="container short-container">
       <h1>Welcome to Short Circuit Evaluation</h1>
-      {<p>You are logged in!</p>}
+      {isloggedIn && <p>You are logged in!</p>}
       <div className="grid-three-cols">
         <button onClick={() => setIsLoggedIn(!isloggedIn)}>
           Toggle login State
