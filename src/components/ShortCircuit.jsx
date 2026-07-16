@@ -1,4 +1,4 @@
-import "./hooks.css";
+import "./src/index.css";
 
 const ShortCircuit = () => {
   return (
