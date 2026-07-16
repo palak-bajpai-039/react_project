@@ -26,3 +26,20 @@ Default Import : When importing a default export , you can name the import whate
 Nmae Export :
 A file can have multiple named exports.
 Each named export must be explicitly exported.
+
+## short circuit evalution in react js
+
+for logical or operator
+const result = false || 'Hello' ; // 'Hello'
+const result2 = true || 'World'; // true
+
+## logical and operator
+
+const result = true && 'Hello' ; // 'Hello'
+const result2 = false && 'World'; // false
+
+## nullish coalescing
+
+const result = null ?? 'Hello' // 'Hello'
+const result2 = undefined ?? 'World' ; // 'World'
+const result3 = " ?? 'Fallback'; //"
