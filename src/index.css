@@ -1,9 +1,9 @@
 @import "tailwindcss";
-
+/*
 @theme {
   --color-primary: #54a0ff;
 }
-
+*/
 /* base rule */
 
 * {
