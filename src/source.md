@@ -50,3 +50,7 @@ it start with use**\_**(useState,useEffects,useReducer)
 used at the top level of component
 call hooks only from react function components or custom hook. do not call hooks from regular js function or in class components.
 you can create your own custom hook
+
+## useState() hook in react
+
+it is a fundamental hook in react that allow you to add state manaegment to your functional components. it lets you store and update values that changes over time , enabling dynamic and interactive user interface.
