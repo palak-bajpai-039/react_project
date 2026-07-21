@@ -43,3 +43,10 @@ const result2 = false && 'World'; // false
 const result = null ?? 'Hello' // 'Hello'
 const result2 = undefined ?? 'World' ; // 'World'
 const result3 = " ?? 'Fallback'; //"
+
+## hooks rule in react js
+
+it start with use**\_**(useState,useEffects,useReducer)
+used at the top level of component
+call hooks only from react function components or custom hook. do not call hooks from regular js function or in class components.
+you can create your own custom hook

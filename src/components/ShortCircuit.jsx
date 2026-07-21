@@ -3,6 +3,16 @@ import { useState } from "react";
 const ShortCircuit = () => {
   const [isloggedIn, setIsLoggedIn] = useState(true);
   const [user, setUser] = useState("");
+  const [count, setCount] = useState(0);
+
+  if (user) {
+    setCount(count + +1);
+  }
+  //const getData = () => {
+  //const [data, setData] = useState(0);
+  //};
+  //getData();
+
   return (
     <section className="container short-container">
       <h1>Welcome to Short Circuit Evaluation</h1>
