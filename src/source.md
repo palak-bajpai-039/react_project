@@ -54,3 +54,4 @@ you can create your own custom hook
 ## useState() hook in react
 
 it is a fundamental hook in react that allow you to add state manaegment to your functional components. it lets you store and update values that changes over time , enabling dynamic and interactive user interface.
+const [count , setCount] = useState(0)

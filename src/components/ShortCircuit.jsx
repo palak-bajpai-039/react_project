@@ -5,9 +5,9 @@ const ShortCircuit = () => {
   const [user, setUser] = useState("");
   const [count, setCount] = useState(0);
 
-  if (user) {
-    setCount(count + +1);
-  }
+  //if (user) {
+  //setCount(count + +1);
+  //}
   //const getData = () => {
   //const [data, setData] = useState(0);
   //};
