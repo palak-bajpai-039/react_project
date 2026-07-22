@@ -56,3 +56,9 @@ you can create your own custom hook
 it is a fundamental hook in react that allow you to add state manaegment to your functional components. it lets you store and update values that changes over time , enabling dynamic and interactive user interface.
 const [count , setCount] = useState(0)
 47
+
+# 1 ) Functions passed to useState() and setState() runs twice during development mode to prevent developers from running side effects
+
+react.js compare previous state and new state using object.is(),if it find both same then it will ignore re-rendering.
+
+### use state challenge
