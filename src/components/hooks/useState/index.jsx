@@ -1,6 +1,8 @@
 //import "../Hooks.css";
 import "/src/index.css";
+import { useState } from "react";
 export const Counter = () => {
+  const [count, setCount] = useState(0);
   return (
     <div
       className="container state-container"
@@ -10,8 +12,10 @@ export const Counter = () => {
     >
       <h1>useState Hooks!</h1>
       <br />
-      <p>Count</p>
-      <button onClick={}>Increment</button>
+      <p>{count}</p>
+      <button className="state-button" onClick={() => setCount(count + 1)}>
+        Increment
+      </button>
     </div>
   );
 };

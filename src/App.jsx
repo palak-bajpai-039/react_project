@@ -1,11 +1,7 @@
-
 import "./components/EV.css";
-import ShortCiruit from "./components/ShortCircuit";
+import { Counter } from "./components/hooks/useState";
+//import ShortCiruit from "./components/ShortCircuit";
 
 export const App = () => {
-  return (
-    <section>
-      <ShortCiruit />
-    </section>
-  );
+  return <Counter />;
 };
