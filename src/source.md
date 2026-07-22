@@ -64,3 +64,7 @@ react.js compare previous state and new state using object.is(),if it find both 
 ### use state challenge
 
 ## controlled Vs uncontrolled
+
+# controlled
+
+where the data is handled by react component state.(state manegement, event handlers , state updates )
