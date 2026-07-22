@@ -68,3 +68,8 @@ react.js compare previous state and new state using object.is(),if it find both 
 # controlled
 
 where the data is handled by react component state.(state manegement, event handlers , state updates )
+
+# uncontrolled
+
+where from data is handled by DOM itself.
+this means : ( direct DaOM manipulation , event handling , accessing from data )
