@@ -36,10 +36,16 @@ const CounterChallenges = () => {
         <br />
 
         <div className="grid-three-cols">
-          <button className="state-button" onClick={handleIncrement}>
+          <button
+            className="state-button"
+            onClick={handleIncrement}
+            disabled={count >= 100}
+          >
             Increment
           </button>
-          <button onClick={handleDecrement}>Decrement</button>
+          <button onClick={handleDecrement} disabled={count <= 0}>
+            Decrement
+          </button>
           <button onClick={handleReset}>Reset</button>
         </div>
       </div>
