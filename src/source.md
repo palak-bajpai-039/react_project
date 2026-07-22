@@ -62,3 +62,5 @@ const [count , setCount] = useState(0)
 react.js compare previous state and new state using object.is(),if it find both same then it will ignore re-rendering.
 
 ### use state challenge
+
+## controlled Vs uncontrolled
