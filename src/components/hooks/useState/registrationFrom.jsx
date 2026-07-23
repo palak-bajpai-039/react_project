@@ -57,6 +57,7 @@ export const RegistrationFrom = () => {
           </div>
         </div>
       </form>
+      <section></section>
     </>
   );
 };
