@@ -73,3 +73,4 @@ where the data is handled by react component state.(state manegement, event hand
 
 where from data is handled by DOM itself.
 this means : ( direct DaOM manipulation , event handling , accessing from data )
+50
