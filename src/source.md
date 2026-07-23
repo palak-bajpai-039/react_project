@@ -72,5 +72,5 @@ where the data is handled by react component state.(state manegement, event hand
 # uncontrolled
 
 where from data is handled by DOM itself.
-this means : ( direct DaOM manipulation , event handling , accessing from data )
+this means : ( 1 direct DaOM manipulation ,2 event handling , 3 accessing from data )
 50
