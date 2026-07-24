@@ -9,6 +9,7 @@ export const RegistrationFrom = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
 
   const handleChange = (e) => {
+    const { name, value } = e.target;
     setFirstName(e.target.value);
     setLastName(e.target.value);
     setEmail(e.target.value);
