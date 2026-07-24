@@ -4,13 +4,15 @@ import "/src/index.css";
 const CounterChallenges = () => {
   const [count, setCount] = useState(0);
   const [step, setStep] = useState(0);
-
+  // handleIncrement funtionality
   const handleIncrement = () => {
     setCount(count + step);
   };
+  // handle Decrement funtionality
   const handleDecrement = () => {
     setCount(count - step);
   };
+  // handle reset functionality
   const handleReset = () => {
     setCount(0);
   };

@@ -1,11 +1,12 @@
 import { useState } from "react";
 import "/src/index.css";
-
+// controlled from functionality
 const ControlledFrom = () => {
   const [name, setName] = useState();
   const Change = (event) => {
     setName(event.target.value);
   };
+  // handle submit functionality
   const handleSubmit = (event) => {
     event.preventDefault();
     const dataValue = document.querySelector("#inputName").value;
