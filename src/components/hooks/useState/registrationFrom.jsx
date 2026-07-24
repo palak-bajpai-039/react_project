@@ -8,6 +8,14 @@ export const RegistrationFrom = () => {
   const [passward, setPassward] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
 
+  const handleChange = (e) => {
+    setFirstName(e.target.value);
+    setLastName(e.target.value);
+    setEmail(e.target.value);
+    setPassward(e.target.value);
+    setPhoneNumber(e.target.value);
+  };
+
   return (
     <>
       <form>
@@ -24,6 +32,7 @@ export const RegistrationFrom = () => {
             placeholder="Enter firstName"
             required
             value={firstName}
+            onClick={handleChange}
           />
           <label htmlFor="lastName">
             <b>Last Name</b>
@@ -34,6 +43,7 @@ export const RegistrationFrom = () => {
             placeholder="Enter last Name"
             required
             value={lastNmae}
+            onClick={handleChange}
           />
           <label htmlFor="email">
             <b>Email</b>
@@ -44,6 +54,7 @@ export const RegistrationFrom = () => {
             name="email"
             required
             value={email}
+            onClick={handleChange}
           />
           <label htmlFor="passward">
             <b>Passward</b>
@@ -54,6 +65,7 @@ export const RegistrationFrom = () => {
             name="passward"
             required
             value={passward}
+            onClick={handleChange}
           />
           <label htmlFor="phone">
             <b>Phone Number</b>
@@ -64,6 +76,7 @@ export const RegistrationFrom = () => {
             placeholder="9873428090"
             required
             value={phoneNumber}
+            onClick={handleChange}
           />
 
           <p>
