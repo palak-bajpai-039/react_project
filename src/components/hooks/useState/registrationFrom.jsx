@@ -1,6 +1,13 @@
 import "/src/index.css";
+import { useState } from "react";
 
 export const RegistrationFrom = () => {
+  const [firstName, setFirstName] = useState("");
+  const [lastNmae, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [passward, setPassward] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+
   return (
     <>
       <form>
@@ -16,6 +23,7 @@ export const RegistrationFrom = () => {
             name="firstName"
             placeholder="Enter firstName"
             required
+            value={firstName}
           />
           <label htmlFor="lastName">
             <b>Last Name</b>
@@ -25,11 +33,18 @@ export const RegistrationFrom = () => {
             name="lastName"
             placeholder="Enter last Name"
             required
+            value={lastNmae}
           />
           <label htmlFor="email">
             <b>Email</b>
           </label>
-          <input type="text" placeholder="Enter Email" name="email" required />
+          <input
+            type="text"
+            placeholder="Enter Email"
+            name="email"
+            required
+            value={email}
+          />
           <label htmlFor="passward">
             <b>Passward</b>
           </label>
@@ -38,11 +53,18 @@ export const RegistrationFrom = () => {
             placeholder="Enter Passward"
             name="passward"
             required
+            value={passward}
           />
           <label htmlFor="phone">
             <b>Phone Number</b>
           </label>
-          <input type="phone" name="phone" placeholder="9873428090" required />
+          <input
+            type="phone"
+            name="phone"
+            placeholder="9873428090"
+            required
+            value={phoneNumber}
+          />
 
           <p>
             By creating an account you agree to 📤
@@ -57,7 +79,7 @@ export const RegistrationFrom = () => {
           </div>
         </div>
       </form>
-      <section></section>
+      <section className="summary"></section>
     </>
   );
 };

@@ -87,3 +87,8 @@ a {
 .grid-three-cols {
   grid-template-columns: repeat(3, 1fr);
 }
+@media screen and (max-width: 300px) {
+  .signupbtn {
+    width: 100%;
+  }
+}
