@@ -10,11 +10,25 @@ export const RegistrationFrom = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFirstName(e.target.value);
-    setLastName(e.target.value);
-    setEmail(e.target.value);
-    setPassward(e.target.value);
-    setPhoneNumber(e.target.value);
+
+    switch (name) {
+      case "firstName":
+        setFirstName(value);
+        break;
+
+      case "lastName":
+        setLastName(value);
+        break;
+      case "email":
+        setEmail(value);
+        break;
+      case "passward":
+        setPassward(value);
+        break;
+      case "phone":
+        setPhoneNumber(value);
+        break;
+    }
   };
 
   return (
