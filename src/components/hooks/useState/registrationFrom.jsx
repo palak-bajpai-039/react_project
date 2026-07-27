@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export const RegistrationFrom = () => {
   const [firstName, setFirstName] = useState("");
-  const [lastNmae, setLastName] = useState("");
+  const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [passward, setPassward] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -31,9 +31,20 @@ export const RegistrationFrom = () => {
     }
   };
 
+  const handleFormSubmit = (event) => {
+    event.preventDefault();
+    const formData = {
+      firstName,
+      lastName,
+      email,
+      phoneNumber,
+    };
+    console.log(formData);
+  };
+
   return (
     <>
-      <form>
+      <form onSubmit={handleFormSubmit}>
         <div className="container">
           <h1> Sign Up</h1>
           <p> Please fil the from to create an account</p>
