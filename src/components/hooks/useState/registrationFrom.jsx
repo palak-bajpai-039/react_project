@@ -1,4 +1,4 @@
-import "./index.css";
+import "./index2.css";
 import { useState } from "react";
 
 export const RegistrationForm = () => {
