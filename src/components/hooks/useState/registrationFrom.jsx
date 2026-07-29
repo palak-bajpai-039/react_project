@@ -1,14 +1,14 @@
-import "/src/index.css";
+import "./index.css";
 import { useState } from "react";
 
-export const RegistrationFrom = () => {
+export const RegistrationForm = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
-  const [passward, setPassward] = useState("");
+  const [password, setPassword] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
 
-  const handleChange = (e) => {
+  const handleInputChange = (e) => {
     const { name, value } = e.target;
 
     switch (name) {
@@ -19,12 +19,15 @@ export const RegistrationFrom = () => {
       case "lastName":
         setLastName(value);
         break;
+
       case "email":
         setEmail(value);
         break;
-      case "passward":
-        setPassward(value);
+
+      case "password":
+        setPassword(value);
         break;
+
       case "phone":
         setPhoneNumber(value);
         break;
@@ -37,8 +40,10 @@ export const RegistrationFrom = () => {
       firstName,
       lastName,
       email,
+      password,
       phoneNumber,
     };
+
     console.log(formData);
   };
 
@@ -46,11 +51,11 @@ export const RegistrationFrom = () => {
     <>
       <form onSubmit={handleFormSubmit}>
         <div className="container">
-          <h1> Sign Up</h1>
-          <p> Please fil the from to create an account</p>
+          <h1>Sign Up</h1>
+          <p>Please fill in this form to create an account.</p>
 
           <label htmlFor="firstName">
-            <b>Frist Name</b>
+            <b>First Name</b>
           </label>
           <input
             type="text"
@@ -58,19 +63,21 @@ export const RegistrationFrom = () => {
             placeholder="Enter firstName"
             required
             value={firstName}
-            onClick={handleChange}
+            onChange={handleInputChange}
           />
+
           <label htmlFor="lastName">
             <b>Last Name</b>
           </label>
           <input
             type="text"
             name="lastName"
-            placeholder="Enter last Name"
+            placeholder="Enter lastName"
             required
-            value={lastNmae}
-            onClick={handleChange}
+            value={lastName}
+            onChange={handleInputChange}
           />
+
           <label htmlFor="email">
             <b>Email</b>
           </label>
@@ -80,37 +87,41 @@ export const RegistrationFrom = () => {
             name="email"
             required
             value={email}
-            onClick={handleChange}
+            onChange={handleInputChange}
           />
-          <label htmlFor="passward">
-            <b>Passward</b>
+
+          <label htmlFor="password">
+            <b>Password</b>
           </label>
           <input
-            type="passward"
-            placeholder="Enter Passward"
-            name="passward"
+            type="password"
+            placeholder="Enter Password"
+            name="password"
             required
-            value={passward}
-            onClick={handleChange}
+            value={password}
+            onChange={handleInputChange}
           />
+
           <label htmlFor="phone">
             <b>Phone Number</b>
           </label>
+
           <input
             type="phone"
             name="phone"
-            placeholder="9873428090"
+            placeholder="9876543211"
             required
             value={phoneNumber}
-            onClick={handleChange}
+            onChange={handleInputChange}
           />
 
           <p>
-            By creating an account you agree to 📤
+            By creating an account you agree to our
             <a href="#" style={{ color: "dodgerblue" }}>
               Terms & Privacy
             </a>
           </p>
+
           <div className="clearfix">
             <button type="submit" className="btn">
               Sign Up
@@ -118,7 +129,20 @@ export const RegistrationFrom = () => {
           </div>
         </div>
       </form>
-      <section className="summary"></section>
+
+      <section
+        className="summary"
+        style={{ textAlign: "center", marginTop: "30px" }}
+      >
+        <p>
+          Hello, my name is
+          <span>
+            {firstName} {lastName}
+          </span>
+          . My email address is <span>{email}</span> and my phone number is
+          <span>{phoneNumber}</span>.
+        </p>
+      </section>
     </>
   );
 };
