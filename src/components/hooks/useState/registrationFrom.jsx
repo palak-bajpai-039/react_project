@@ -30,7 +30,7 @@ export const RegistrationFrom = () => {
         break;
     }
   };
-
+  // handle form submit
   const handleFormSubmit = (event) => {
     event.preventDefault();
     const formData = {
