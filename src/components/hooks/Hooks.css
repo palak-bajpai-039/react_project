@@ -21,6 +21,12 @@ p {
 button:hover {
   opacity: 1;
 }
+span {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 0.6rem;
+  color: #0eb7f4;
+}
 
 p {
   margin-bottom: 3.2rem;
