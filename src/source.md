@@ -73,4 +73,10 @@ where the data is handled by react component state.(state manegement, event hand
 
 where from data is handled by DOM itself.
 this means : ( 1 direct DaOM manipulation ,2 event handling , 3 accessing from data )
-50
+
+# object in react
+
+let user(object name)={
+name:"johan", object property
+age:40
+}

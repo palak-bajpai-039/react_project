@@ -1,5 +1,5 @@
 import "./components/EV.css";
-import { RegistrationForm } from "./components/hooks/useState/registrationFrom";
+import { RegistrationReactForm } from "./components/hooks/useState/registrationReactForm";
 
 //import { Counter } from "./components/hooks/useState";
 //import CounterChallenges from "./components/hooks/useState/challenge";
@@ -7,5 +7,5 @@ import { RegistrationForm } from "./components/hooks/useState/registrationFrom";
 //import ControlledFrom from "./components/hooks/useState/controlled";
 
 export const App = () => {
-  return <RegistrationForm />;
+  return <RegistrationReactForm />;
 };
