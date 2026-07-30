@@ -1,4 +1,4 @@
-/*@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap");*/
+/* @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap"); */
 
 * {
   margin: 0;
@@ -11,119 +11,123 @@ html {
   font-size: 62.5%;
 }
 
-:root {
-  --primary-color: #1c2833;
-  --secondary-color: #fff;
-  --bg-color: #f2f3f4;
+body {
+  background: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 900;
-}
+/* Heading */
 
 h1 {
-  font-size: 4.2rem;
-  font-weight: bold;
-  margin-bottom: 1.6rem;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-body {
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
-  background-color: #f7f7f7;
-}
-* {
-  box-sizing: border-box;
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
 }
 
-/* Add padding to container elements */
+/* Form Container */
+
 .container {
-  padding: 20px;
   width: 500px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
   border: 1px solid #ccc;
   border-radius: 10px;
-  background: white;
-  -webkit-box-shadow: 2px 1px 21px -9px rgba(0, 0, 0, 0.38);
-  -moz-box-shadow: 2px 1px 21px -9px rgba(0, 0, 0, 0.38);
-  box-shadow: 2px 1px 21px -9px rgba(0, 0, 0, 0.38);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Full-width input fields */
+/* Labels */
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.6rem;
+}
+
+/* Inputs */
+
 input[type="text"],
 input[type="email"],
 input[type="password"],
-textarea {
+input[type="tel"] {
   width: 100%;
   padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
+  margin-bottom: 20px;
   border: none;
-  background: #f7f7f7;
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  background: #f1f1f1;
   font-size: 1.6rem;
+  border-radius: 5px;
 }
 
-input[type="phone"] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f7f7f7;
-}
-
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="phone"]:focus {
-  background-color: #ddd;
+input:focus {
   outline: none;
+  background: #ddd;
 }
 
-/* Set a style for all buttons */
+/* Paragraph */
+
+p {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+/* Link */
+
+a {
+  text-decoration: none;
+}
+
+/* Button */
+
 button {
-  background-color: #0eb7f4;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
   width: 100%;
-  opacity: 0.9;
-  font-size: 16px;
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
-  border-radius: 10px;
+  padding: 14px;
+  background: #0eb7f4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  cursor: pointer;
 }
 
 button:hover {
-  opacity: 1;
+  background: #0999cc;
 }
 
-span {
-  font-size: 1.6rem;
-  font-weight: bold;
-  margin: 0 0.6rem;
+/* Summary */
+
+.summary {
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.summary p {
+  line-height: 2;
+}
+
+.summary span {
   color: #0eb7f4;
-}
-label,
-p {
-  font-size: 1.6rem;
-}
-p {
-  margin-bottom: 3.2rem;
-  font-size: 1.8rem;
+  font-weight: bold;
 }
 
-/* Change styles for signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .signupbtn {
-    width: 100%;
+/* Responsive */
+
+@media (max-width: 600px) {
+  .container,
+  .summary {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 3rem;
   }
 }
