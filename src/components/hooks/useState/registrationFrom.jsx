@@ -12,40 +12,9 @@ export const RegistrationForm = () => {
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-
-    switch (name) {
-      case "firstName":
-        setFirstName(value);
-        break;
-
-      case "lastName":
-        setLastName(value);
-        break;
-
-      case "email":
-        setEmail(value);
-        break;
-
-      case "password":
-        setPassword(value);
-        break;
-
-      case "phone":
-        setPhoneNumber(value);
-        break;
-      default:
-        break;
-    }
-  };
-
-  const handleFormSubmit = (event) => {
-    event.preventDefault();
-    const formData = {
-      firstName,
-      lastName,
-      email,
-      password,
-      phoneNumber,
+    setUser((some) => {
+      console.log("some")
+    })
     };
 
     console.log(formData);
@@ -73,7 +42,7 @@ export const RegistrationForm = () => {
             name="firstName"
             placeholder="Enter firstName"
             required
-            value={firstName}
+            value={user.firstName}
             onChange={handleInputChange}
           />
 
@@ -86,7 +55,7 @@ export const RegistrationForm = () => {
             name="lastName"
             placeholder="Enter lastName"
             required
-            value={lastName}
+            value={user.lastName}
             onChange={handleInputChange}
           />
 
@@ -99,7 +68,7 @@ export const RegistrationForm = () => {
             placeholder="Enter Email"
             name="email"
             required
-            value={email}
+            value={user.email}
             onChange={handleInputChange}
           />
 
@@ -112,7 +81,7 @@ export const RegistrationForm = () => {
             placeholder="Enter Password"
             name="password"
             required
-            value={password}
+            value={user.password}
             onChange={handleInputChange}
           />
 
@@ -126,7 +95,7 @@ export const RegistrationForm = () => {
             name="phone"
             placeholder="9876543211"
             required
-            value={phoneNumber}
+            value={user.phoneNumber}
             onChange={handleInputChange}
           />
 
@@ -152,10 +121,10 @@ export const RegistrationForm = () => {
         <p>
           Hello, my name is
           <span>
-            {firstName} {lastName}
+            {user.firstName} {user.lastName}
           </span>
-          . My email address is <span>{email}</span> and my phone number is
-          <span>{phoneNumber}</span>.
+          . My email address is <span>{user.email}</span> and my phone number is
+          <span>{user.phoneNumber}</span>.
         </p>
       </section>
     </>
