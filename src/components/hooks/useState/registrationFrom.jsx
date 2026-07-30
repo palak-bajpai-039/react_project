@@ -31,6 +31,8 @@ export const RegistrationForm = () => {
       case "phone":
         setPhoneNumber(value);
         break;
+      default:
+        break;
     }
   };
 
@@ -45,6 +47,12 @@ export const RegistrationForm = () => {
     };
 
     console.log(formData);
+    alert("Registration successfull");
+    setFirstName("");
+    setLastName("");
+    setPassword("");
+    setEmail("");
+    setPhoneNumber("");
   };
 
   return (
@@ -58,6 +66,7 @@ export const RegistrationForm = () => {
             <b>First Name</b>
           </label>
           <input
+            id="firstName"
             type="text"
             name="firstName"
             placeholder="Enter firstName"
@@ -70,6 +79,7 @@ export const RegistrationForm = () => {
             <b>Last Name</b>
           </label>
           <input
+            id="lastName"
             type="text"
             name="lastName"
             placeholder="Enter lastName"
@@ -82,6 +92,7 @@ export const RegistrationForm = () => {
             <b>Email</b>
           </label>
           <input
+            id="email"
             type="text"
             placeholder="Enter Email"
             name="email"
@@ -94,6 +105,7 @@ export const RegistrationForm = () => {
             <b>Password</b>
           </label>
           <input
+            id="passward"
             type="password"
             placeholder="Enter Password"
             name="password"
