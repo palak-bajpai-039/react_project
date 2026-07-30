@@ -93,7 +93,7 @@ export const RegistrationForm = () => {
           </label>
           <input
             id="email"
-            type="text"
+            type="email"
             placeholder="Enter Email"
             name="email"
             required
@@ -119,7 +119,8 @@ export const RegistrationForm = () => {
           </label>
 
           <input
-            type="phone"
+            id="phoneNumber"
+            type="tel"
             name="phone"
             placeholder="9876543211"
             required
