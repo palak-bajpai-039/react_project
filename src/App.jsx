@@ -1,5 +1,6 @@
 import "./components/EV.css";
-import { LoginForm } from "./components/hooks/useState/LoginForm";
+import { ContactForm } from "./components/hooks/useState/ContactForm";
+//import { LoginForm } from "./components/hooks/useState/LoginForm";
 //import NetflixSeries from "./components/NetflixSeries";
 //import { RegistrationReactForm } from "./components/hooks/useState/registrationReactForm";
 
@@ -9,5 +10,5 @@ import { LoginForm } from "./components/hooks/useState/LoginForm";
 //import ControlledFrom from "./components/hooks/useState/controlled";
 
 export const App = () => {
-  return <LoginForm />;
+  return <ContactForm />;
 };
