@@ -5,13 +5,22 @@ export const ContactForm = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handlecontact = (e) => {};
+  const handlecontact = (e) => {
+    e.preventDefault();
+
+    const contactdata = {
+      username: username,
+      email: email,
+      message: message,
+    };
+    console.log(contactdata);
+  };
 
   return (
     <div className="container">
       <div className="card">
         <h1>Contact Form</h1>
-        <form>
+        <form onSubmit={handlecontact}>
           <label htmlFor="username">UserName</label>
           <input
             type="text"
