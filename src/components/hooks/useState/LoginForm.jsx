@@ -1,4 +1,4 @@
-import "./index.css";
+import "./index2.css";
 
 export const LoginForm = () => {
   return (
