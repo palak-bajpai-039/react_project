@@ -6,7 +6,7 @@ const ControlledFrom = () => {
   const Change = (event) => {
     setName(event.target.value);
   };
-  // handle submit functionality
+
   const handleSubmit = (event) => {
     event.preventDefault();
     const dataValue = document.querySelector("#inputName").value;
