@@ -80,3 +80,18 @@ let user(object name)={
 name:"johan", object property
 age:40
 }
+
+## use effect hooks in react -> used for handling side effect
+
+useEffect(() => {
+
+# your side effect code here
+
+return () =>{
+
+# cleanup code here(optional)
+
+};
+},[dependecies]);
+
+side effect -> htat affect something outside the scope of a function
