@@ -4,7 +4,7 @@ export const ContactForm = () => {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-
+  //handle contact form functionality
   const handlecontact = (e) => {
     e.preventDefault();
 
