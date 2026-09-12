@@ -1,7 +1,7 @@
 import "./components/EV.css";
-import { ContactForm } from "./components/hooks/useState/ContactForm";
+//import { ContactForm } from "./components/hooks/useState/ContactForm";
 //import { LoginForm } from "./components/hooks/useState/LoginForm";
-//import NetflixSeries from "./components/NetflixSeries";
+import NetflixSeries from "./components/NetflixSeries";
 //import { RegistrationReactForm } from "./components/hooks/useState/registrationReactForm";
 
 //import { Counter } from "./components/hooks/useState";
@@ -10,5 +10,5 @@ import { ContactForm } from "./components/hooks/useState/ContactForm";
 //import ControlledFrom from "./components/hooks/useState/controlled";
 
 export const App = () => {
-  return <ContactForm />;
+  return <NetflixSeries />;
 };
